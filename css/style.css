@@ -4,6 +4,7 @@
     padding: 0px;
     font-family: 'Alpino', sans-serif;
     color: black;
+    scroll-behavior: smooth;
 }
 
 /*CSS Variables*/
