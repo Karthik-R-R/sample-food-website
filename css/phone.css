@@ -4,6 +4,7 @@
     padding: 0px;
     font-family: 'Alpino', sans-serif;
     color: black;
+    overflow: hidden;
 /*    background-color: red;*/
 }
 /*Navigation*/
@@ -14,7 +15,7 @@
 
 /*home section*/
 #home::before{
-    height: 70%;
+    height: 30%;
 }
 
 /*services section*/
@@ -33,10 +34,11 @@
 #clients{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 /*contact us*/
 .contact-us::before{
-   height:38%;
+   height:25%;
 }
 /*Footer*/
 footer{
