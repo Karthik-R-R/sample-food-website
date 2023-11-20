@@ -4,4 +4,41 @@
     padding: 0px;
     font-family: 'Alpino', sans-serif;
     color: black;
+/*    background-color: red;*/
+}
+/*Navigation*/
+#navbar{
+    flex-direction: row;
+    height: 9%;
+}
+
+/*home section*/
+#home::before{
+    height: 70%;
+}
+
+/*services section*/
+#services{
+    display: flex;
+    flex-direction: column;
+}
+/*client*/
+.clients-names::before{
+   height:81%;
+
+}
+.client-item{
+    margin: auto;
+}
+#clients{
+    display: flex;
+    flex-direction: column;
+}
+/*contact us*/
+.contact-us::before{
+   height:38%;
+}
+/*Footer*/
+footer{
+    width: 95.9%;
 }
