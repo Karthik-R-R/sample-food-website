@@ -37,6 +37,8 @@ body::before{
     background-color: black; /*#100E0E;*/ /*Color of navbar is here*/
     padding: 0px 0px;
     height: 65px;
+    position: sticky;
+    top:0px;
 /*    opacity: 0.9;*/
     align-items: center; /*For vertical*/
 /*    justify-content: center;*/
