@@ -1,0 +1,7 @@
+/*CSS Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alpino', sans-serif;
+    color: black;
+}
